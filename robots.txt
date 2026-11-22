@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /krafft-in-basel/
+Allow: /
 
-Sitemap: https://armin-historik.github.io/krafft-in-basel/sitemap.xml
+Sitemap: https://krafft-in-basel.ch/sitemap.xml

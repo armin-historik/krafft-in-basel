@@ -8,3 +8,11 @@
 .relation-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1rem;margin:1.2rem 0}
 .relation-grid article{border:1px solid #c9c1b6;border-radius:10px;padding:1rem}
 .relation-grid h3{margin-top:0}
+
+/* Historisches Porträt auf der Startseite */
+.intro-with-portrait{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,320px);gap:clamp(24px,4vw,56px);align-items:start}
+.intro-with-portrait .prose{min-width:0}
+.historisches-portraet{margin:0}
+.historisches-portraet img{display:block;width:100%;height:auto;border-radius:5px;border:1px solid var(--line)}
+.historisches-portraet figcaption{font-size:.82rem;line-height:1.5;color:var(--muted);margin-top:10px}
+@media(max-width:760px){.intro-with-portrait{grid-template-columns:1fr}.historisches-portraet{max-width:340px;margin:0 auto}}
